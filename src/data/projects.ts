@@ -3,39 +3,39 @@ import { IProjectItem, ProjectType, RepoType } from "@/types";
 const projects: IProjectItem[] = [
   {
     id: "social-media-app-flutter",
-    title: "Social Media App",
+    title: "ConnectVerse - Social Networking Platform",
     description:
-      "A social media mobile application developed using Flutter, GetX, Firebase Notifications and Hive.",
+      "A full-featured social networking mobile application built with Flutter, featuring real-time updates, push notifications, and offline-first architecture using Hive for local data persistence.",
     icon: "/skills/flutter.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/ShuvrotoKumar",
     url: "https://github.com/ShuvrotoKumar",
-    tags: ["Flutter", "Dart", "GetX", "Hive"],
+    tags: ["Flutter", "Dart", "GetX", "Firebase", "Hive", "State Management"],
   },
   {
     id: "e-commerce-app-mern",
-    title: "E-commerce App",
+    title: "ShopNest - E-commerce Platform",
     description:
-      "An e-commerce web application developed using React.js, Material UI, Redux, and Stripe.",
+      "A responsive e-commerce platform with product catalog, shopping cart, and secure checkout flow. Built with React.js, Redux for state management, and integrated with Stripe for payments.",
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/ShuvrotoKumar",
     url: "https://github.com/ShuvrotoKumar",
-    tags: ["React.js", "Redux", "Material UI", "Stripe"],
+    tags: ["React.js", "Redux", "Material UI", "Stripe", "Responsive Design", "E-commerce"],
   },
   {
     id: "video-calling-app-flutter",
-    title: "Video Calling App",
+    title: "VidConnect - Real-time Video Calling",
     description:
-      "A video calling mobile application developed using Flutter and Agora SDK that allows users to call each other face to face.",
+      "A high-performance video conferencing solution with end-to-end encryption, screen sharing, and chat functionality. Built with Flutter and Agora SDK for seamless cross-platform communication.",
     icon: "/skills/flutter.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/ShuvrotoKumar",
     url: "https://github.com/ShuvrotoKumar",
-    tags: ["Flutter", "Dart", "GetX", "Agora SDK"],
+    tags: ["Flutter", "Dart", "WebRTC", "Agora SDK", "Real-time Communication", "Cross-platform"],
   },
   {
     id: "social-media-api-nodejs",
@@ -50,15 +50,15 @@ const projects: IProjectItem[] = [
   },
   {
     id: "grocery-list-maker-app-flutter",
-    title: "Grocery List Maker ",
+    title: "ShopSmart - Grocery List Manager",
     description:
-      "A grocery list maker mobile application developed using Flutter, BloC, Hive DB, and PDF.",
+      "An intelligent grocery shopping assistant that helps users create, manage, and share shopping lists. Features include barcode scanning, recipe integration, and PDF export for shopping lists.",
     icon: "/skills/flutter.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/ShuvrotoKumar",
     url: "https://github.com/ShuvrotoKumar",
-    tags: ["Flutter", "Dart", "BLoC", "PDF", "Hive"],
+    tags: ["Flutter", "Dart", "BLoC", "Hive", "PDF Generation", "Barcode Scanning"],
   },
   {
     id: "e-commerce-api-nodejs",
@@ -73,14 +73,14 @@ const projects: IProjectItem[] = [
   },
   {
     id: "flutter-carousel-widget-package",
-    title: "Flutter Carousel Widget Package",
+    title: "Flutter Infinite Carousel Pro",
     description:
-      "A customizable carousel widget for Flutter, offering features such as infinite scrolling, auto-scrolling, custom child widgets, pre-built indicators, expandable child widgets, auto-sized child support, and enlarged center page.",
+      "A highly customizable and performant carousel widget for Flutter with advanced features including infinite scrolling, auto-play, custom animations, and responsive layouts. Designed for building beautiful, interactive content sliders and image galleries.",
     icon: "/skills/flutter.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/ShuvrotoKumar",
-    tags: ["Flutter", "Dart", "Carousel"],
+    tags: ["Flutter", "Dart", "UI Components", "Open Source", "Widget Library", "Responsive Design"],
   },
   {
     id: "get-time-ago-package",
@@ -102,7 +102,7 @@ const projects: IProjectItem[] = [
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/ShuvrotoKumar",
-    url: "https://github.com/ShuvrotoKumar",
+    url: "shuvroto-portfolio-6gz8.vercel.app",
     tags: ["Next.js", "Sass", "Web Development"],
   },
   {
