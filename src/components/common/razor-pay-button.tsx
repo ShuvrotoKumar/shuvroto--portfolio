@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const paymentUrl = "https://rzp.io/l/nixrajput-project-payment";
+const paymentUrl = "https://shuvroto-portfolio-6gz8.vercel.app/";
 
 function RazorPayButton() {
   return (
