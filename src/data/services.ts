@@ -33,11 +33,11 @@ const services: IServiceItem[] = [
     id: 3,
     title: "API Integration",
     icons: [
-      "/skills/rest-api.png",
-      "/skills/graphql.png",
+      "/skills/rest.png",
+      "/skills/graph.png",
       "/skills/nodejs.svg",
       "/skills/express.svg",
-      "/skills/aws-api-gateway.png",
+      "/skills/awss.png",
     ],
     shortDescription: "I connect your applications with powerful APIs.",
     description:
@@ -49,9 +49,9 @@ const services: IServiceItem[] = [
     icons: [
       "/skills/typescript.svg",
       "/skills/react.svg",
-      "/skills/tailwindcss.svg",
       "/skills/redux.svg",
       "/skills/nextjs.png",
+      "/skills/html.svg",
     ],
     shortDescription: "I create engaging and responsive user interfaces.",
     description:
